@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Tarjeta de producto, calcular total " />
+    <meta name="description" content="Página de tarjeta de produto" />
+    <meta name="author" content="Juan González Covarrubias" />
+    <title>Tarjeta de Productos</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="card_container">
+        <div class="select_items">
+          <img
+            src="assets/img/notebook.png"
+            alt="Dibujo de un notebook de color gris, con teclas multicolores. En su pantalla se muestra un ave mitológica de color verde y ojos rojos la cual tiene como fondo el color negro"
+          />
+        </div>
+        <h3>Laptop Gamer AMD</h3>
+        <div class="select_param">
+          <input type="text" class="in" />
+          <select id="selector" class="in" onchange="the_color();">
+            <option value="black">Negro</option>
+            <option value="red">Rojo</option>
+            <option value="blue">Azul</option>
+          </select>
+        </div>
+        <div class="value">
+          <h3 class="value_title">Precio:</h3>
+          <h3 class="value_value" value="400000">$ 400.000</h3>
+        </div>
+      </div>
+      <div class="purchase">
+        <div class="total">
+          <h3>Total:</h3>
+          <h3 id="value_total">1200000</h3>
+        </div>
+        <div class="amount">
+          <h3>Cantidad:</h3>
+          <h3 id="amount_total">3</h3>
+        </div>
+        <div class="color_note">
+          <h3>color:</h3>
+          <h3 id="color_select"></h3>
+        </div>
+      </div>
+      <div class="container_button">
+        <button>Calcular Total</button>
+      </div>
+    </main>
+  </body>
+</html>
