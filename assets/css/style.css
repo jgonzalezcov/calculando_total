@@ -1,0 +1,115 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.card_container {
+  height: 60vh;
+  grid-area: card_container;
+  padding-top: 0.5em;
+  background-color: rgb(113, 157, 63);
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.purchase {
+  grid-area: purchase;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  border: 2px solid rgb(113, 157, 63);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 'card_container  purchase';
+}
+
+.select_param {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 1em;
+}
+
+#color_select {
+  width: 20px;
+  height: 20px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: rgb(113, 157, 63);
+}
+
+.in {
+  margin-top: 1em;
+  height: 2.5em;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.value {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em;
+  height: 2em;
+}
+
+.value_title {
+  margin-right: 0.2em;
+}
+.value_value {
+  margin-left: 0.2em;
+}
+
+.container_button {
+  background: rgb(113, 157, 63);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 1em;
+}
+button {
+  width: 40%;
+  height: 3em;
+  background-color: rgb(201, 146, 45);
+  border: 2px solid rgb(81, 78, 78);
+  border-radius: 10px;
+  color: #fff;
+}
+.purchase {
+  padding: 2em;
+}
+.total {
+  display: flex;
+}
+.amount {
+  display: flex;
+}
+.color_note {
+  display: flex;
+}
+
+#value_total {
+  margin-left: 0.3em;
+}
+#amount_total {
+  margin-left: 0.3em;
+}
+#color_select {
+  margin-left: 0.3em;
+}
