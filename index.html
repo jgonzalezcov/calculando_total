@@ -22,16 +22,17 @@
         </div>
         <h3>Laptop Gamer AMD</h3>
         <div class="select_param">
-          <input type="text" class="in" />
+          <input value="0" type="text" class="in amount_in" />
           <select id="selector" class="in" onchange="the_color();">
-            <option value="black">Negro</option>
             <option value="red">Rojo</option>
             <option value="blue">Azul</option>
+            <option value="green">Verde</option>
+            <option value="black">Black</option>
           </select>
         </div>
         <div class="value">
           <h3 class="value_title">Precio:</h3>
-          <h3 class="value_value" value="400000">$ 400.000</h3>
+          <h3 class="value_value">400000</h3>
         </div>
       </div>
       <div class="purchase">
@@ -41,7 +42,7 @@
         </div>
         <div class="amount">
           <h3>Cantidad:</h3>
-          <h3 id="amount_total">3</h3>
+          <h3 id="amount_total">0</h3>
         </div>
         <div class="color_note">
           <h3>color:</h3>
@@ -49,8 +50,9 @@
         </div>
       </div>
       <div class="container_button">
-        <button>Calcular Total</button>
+        <button onclick="calculate();">Calcular Total</button>
       </div>
     </main>
+    <script type="text/javascript" src="assets/js/dom.js"></script>
   </body>
 </html>

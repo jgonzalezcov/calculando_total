@@ -4,15 +4,15 @@
 }
 
 body {
-  height: 60vh;
   display: flex;
   justify-content: center;
   margin-top: 5em;
 }
 
 .card_container {
+  height: 60vh;
   grid-area: card_container;
-  padding-top: 2em;
+  padding-top: 0.5em;
   background-color: rgb(113, 157, 63);
   text-align: center;
   color: #fff;
@@ -65,7 +65,8 @@ body {
   width: 70%;
   display: flex;
   flex-direction: row;
-  margin-top: 1em;
+  padding: 0.5em;
+  height: 2em;
 }
 
 .value_title {
@@ -80,6 +81,7 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
+  padding: 1em;
 }
 button {
   width: 40%;
