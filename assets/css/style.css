@@ -10,7 +10,7 @@ body {
 }
 
 .card_container {
-  height: 60vh;
+  height: 500px;
   grid-area: card_container;
   padding-top: 0.5em;
   background-color: rgb(113, 157, 63);
@@ -51,30 +51,21 @@ body {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: rgb(113, 157, 63);
+  background: #008000;
 }
 
 .in {
-  margin-top: 1em;
+  margin-bottom: 1em;
   height: 2.5em;
   border: 2px solid #fff;
   border-radius: 10px;
 }
 
-.value {
-  width: 70%;
-  display: flex;
-  flex-direction: row;
-  padding: 0.5em;
-  height: 2em;
-}
 
 .value_title {
   margin-right: 0.2em;
 }
-.value_value {
-  margin-left: 0.2em;
-}
+
 
 .container_button {
   background: rgb(113, 157, 63);
